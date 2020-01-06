@@ -1,0 +1,2 @@
+C:\Users\Kay\Documents\C# Games\GridFreeFriction\GridFreeFriction\GridFreeFrictionContent\obj\x86\Debug\GridFreeFrictionContent.contentprojResolveAssemblyReference.cache
+C:\Users\cobou\Documents\C# Games\CodeForGames\GridFreeFriction\GridFreeFriction\GridFreeFrictionContent\obj\x86\Debug\GridFreeFrictionContent.contentprojResolveAssemblyReference.cache

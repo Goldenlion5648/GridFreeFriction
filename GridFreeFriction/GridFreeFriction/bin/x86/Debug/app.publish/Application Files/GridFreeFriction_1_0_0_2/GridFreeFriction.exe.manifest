@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GridFreeFriction.exe" version="1.0.0.2" publicKeyToken="546d5ea2423739a5" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Game.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GridFreeFriction" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="GridFreeFriction.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Game" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.GamerServices" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Graphics" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Xna.Framework.Input.Touch" version="4.0.0.0" publicKeyToken="842CF8BE1DE50553" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GridFreeFriction.exe" size="27136">
+      <assemblyIdentity name="GridFreeFriction" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WJpVCndOxtL7uVVfRjw4/8fOd/Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Content\buttonOutline.xnb" size="136051">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XmXM5DnP75sxL0dN29BW5Rhj/0I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\customfont.xnb" size="13486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HnIftSF2mpcONZ7dqbnzjA0MMec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Game.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/y21PfwGnUAkwpPwwaFuIIyWENo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GameThumbnail.png" size="5734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>diNvdcDpDtGEMuMQIHpkKK3qVHc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NEWTOWER\Kay" issuerKeyHash="c79b90798bd92537cfe2c6f393ff9a4376fbf6fd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nxbqD7WQON+MI+gXzIcsTOjRF90=</DigestValue></Reference></SignedInfo><SignatureValue>RdPWwvWGnI8acHFdyD1zg7L+AA/Rzkfed42o3XDsB9UkJiE5qGZ1ivATiPxy4znO7/mTWXaHWuS41vS0Zwln+Y2VaplOlYJdOWJpouC3MdB/J9x+3NUGAoQ95hgwFlOQdWh1AnO1stf5kE6bxgw08uZIPInLIZj+KzKJjI3ODLo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wK8ZbDnC8odRJtA/hxiSCnQKz3UrbkGvdgDJ44zLh/3pDDDjjhuLMYPTf34NQ8bSGx5fyre7YMSblTq7bAkeYUCeqg0qL62oVWK71kD/eald9QU8KvjIHEjow1y5mOhQedSqn07pC/Ihf1fqIxo4ff3wRnWCi/uv07rcEkbnA2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd17d1e84c2c87cc17e8238cdf3890b50fea169f" Description="" Url=""><as:assemblyIdentity name="GridFreeFriction.exe" version="1.0.0.2" publicKeyToken="546d5ea2423739a5" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NEWTOWER\Kay</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eo5VbnTPeHhZBrLovMYjjLi0jDg=</DigestValue></Reference></SignedInfo><SignatureValue>DI8Adbbd89tNPCGtWXrOK8PKc6i56HV+SYI510dceW668fN+ZQYQ6L6BtZY/P7pZkdnf2KYR4vI8iGsfj1eiahp2QpyiETcEbI9VjoHqs55ouOw8THq/mq9pxD9k/iTPV+xC5REM5SsuZCic+diHbf73mHI+e0IYp+FxyN0Hw7I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wK8ZbDnC8odRJtA/hxiSCnQKz3UrbkGvdgDJ44zLh/3pDDDjjhuLMYPTf34NQ8bSGx5fyre7YMSblTq7bAkeYUCeqg0qL62oVWK71kD/eald9QU8KvjIHEjow1y5mOhQedSqn07pC/Ihf1fqIxo4ff3wRnWCi/uv07rcEkbnA2k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQa/06ruqa17xMRnl9loRpuTANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgATgBFAFcAVABPAFcARQBSAFwASwBhAHkwHhcNMTgwNjE0MTg1OTI2WhcNMTkwNjE1MDA1OTI2WjAjMSEwHwYDVQQDHhgATgBFAFcAVABPAFcARQBSAFwASwBhAHkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMCvGWw5wvKHUSbQP4cYkgp0Cs91K25Br3YAyeOMy4f96Qww444bizGD039+DUPG0hseX8q3u2DEm5U6u2wJHmFAnqoNKi+tqFViu9ZA/3mpXfUFPCr4yBxI6MNcuZjoUHnUqp9O6QvyIX9X6iMaOH398EZ1gov7r9O63BJG5wNpAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAabWsMcg9rstYk80sg4ryizu7ryKxsbmsjF99+b44DmCngZt02cp2bWmygZFb3rfoGGdou1E5Lx5KINU6UXd3frEnoE4tZm/HJkQUaxCVhDO6t6MdLoiUvXO/pdTIYNBCZ2nSN/fE/ZrqNaRMua28zJbAq4F3QViPjjLFU4n3X3g=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
