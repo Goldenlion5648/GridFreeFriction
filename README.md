@@ -3,6 +3,6 @@ The player starts at the green tile and must try to reach the purple one using t
 
 Download it here:
 
-https://drive.google.com/open?id=1iOrqDccdnX4S-NLHCiC-X8nltPjMOpeU
+https://drive.google.com/open?id=1fHdeYzivbVT2H75nIIP5XsFKyFJscXTv
 
 ![alt text](https://github.com/Goldenlion5648/GridFreeFriction/blob/master/gridfreefriction.png)
